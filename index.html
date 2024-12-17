@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NFC Read/Write</title>
+  <style>
+    .main {
+      width: 100vw;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      flex-direction: column;
+    }
+
+    .title {
+      font-size: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="main">
+    <h2 class="title">
+      NFC Read/Write
+    </h2>
+    <p id="value"></p>
+    <div>
+      <input type="text" id="value">
+    </div>
+    <button id="write-button">
+      Write
+    </button>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
